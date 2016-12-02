@@ -28,7 +28,7 @@ def read_file(files):
 
 # Storing files in the output_greedy folder
 def write_output(S,n,fno):
-    path = 'output_greedy/greedy_solutionsss'+fno+'.txt'
+    path = 'output_greedy/greedy_solution'+fno
     d = os.path.dirname(path)
     if not os.path.exists(d):
         os.makedirs(d)
