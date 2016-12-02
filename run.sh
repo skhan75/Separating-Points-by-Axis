@@ -1,5 +1,5 @@
 #!/bin/bash
-FILES=input/*.txt
+FILES=input/*
 counter=0
  
 for f in $FILES
